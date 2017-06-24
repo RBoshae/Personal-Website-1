@@ -1,2 +1,3 @@
 name: Rick Boshae
 markdown: kramdown
+permalink: /blog/:year/:month/day/:title
