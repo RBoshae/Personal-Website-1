@@ -6,10 +6,10 @@ This is my personal website. Includes Skills, Experience, Blog and pages generat
 To make this website I learned HTML and CSS through W3Schools Online Web Tutorial and Google Searches. I also received advise and tips from Karen Kong
 
 # Resources
-  - [A Guide To Hosting A Personal Websit On Github]<http://jmcglone.com/guides/github-pages/>
-  - [Set Up Google Analytics]<https://support.google.com/analytics/answer/1042508>
-  - [W3Schools}<https://www.w3schools.com/>
-  - [Karen Kong]<https://github.com/kkong006>
+  - [A Guide To Hosting A Personal Websit On Github](http://jmcglone.com/guides/github-pages/)
+  - [Set Up Google Analytics](https://support.google.com/analytics/answer/1042508)
+  - [W3Schools}(https://www.w3schools.com/)
+  - [Karen Kong](https://github.com/kkong006)
 
 **NOTE:** If you fork or re-use this project, please be sure you:
 
