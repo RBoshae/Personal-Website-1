@@ -19,7 +19,7 @@ To make this website I learned HTML and CSS through W3Schools Online Web Tutoria
 
 Otherwise I will receive Google Analytics data from your website.
 
-## License
+License
 ----
 
 MIT
