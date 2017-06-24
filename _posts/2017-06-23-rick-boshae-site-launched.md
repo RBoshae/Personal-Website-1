@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Rick Bosahe, Launches Site"
+title: "Rick Boshae, Launches Site"
 date: 2017-06-23
 ---
 
