@@ -10,6 +10,4 @@ I am super eager to read further into the guide and do some learning!
 
 On a side note, here's a great video I enjoyed watching that was suggested by the site and produced by [Khan Academy](https://www.khanacademy.org/talks-and-interviews/conversations-with-sal/a/the-learning-myth-why-ill-never-tell-my-son-hes-smart).
 
-<iframe width="420" height="315"
-src="https://www.youtube.com/watch?v=JC82Il2cjqA">
-</iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JC82Il2cjqA" frameborder="0" allowfullscreen></iframe>
