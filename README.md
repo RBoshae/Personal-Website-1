@@ -7,6 +7,7 @@ To make this website I learned HTML and CSS through Jonathan McGlone's Guide, W3
 
 ## Resources
   - [W3Schools](https://www.w3schools.com/)
+  - [MDN: Learn Web Development](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web)
   - [Jonathan McGlone's Guide To Hosting A Personal Website On Github](http://jmcglone.com/guides/github-pages/)
   - [Jekyll](https://jekyllrb.com/)
   - [Set Up Google Analytics](https://support.google.com/analytics/answer/1042508)
