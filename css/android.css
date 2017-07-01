@@ -79,9 +79,9 @@ div div{background: #A4CA39; position: relative;}
   -webkit-border-radius: 0 0 25px 25px;
 }
 .l_arm{left:-58px;}
-.r_arm(right:-58px;)
-.l_leg(left:45px;)
-.r_leg(right: 45px;)
+.r_arm{right:-58px;}
+.l_leg{left:45px;}
+.r_leg{right: 45px;}
 
 .head:hover{
   -webkit-transform: rotate(-5deg)translate(-4px,-8px);
