@@ -5,6 +5,6 @@ date: 2017-06-30
 ---
 
 Here's the Android logo I built using just HTML and CSS by watching [this video.](http://thecodeplayer.com/walkthrough/css3-android-logo)
-<section>
-{% include android.html %}
-</section>
+<iframe src="/android-logo/index.html" width="400" height="300">
+  <p>Your browser does not support iframes.</p>
+</iframe>
