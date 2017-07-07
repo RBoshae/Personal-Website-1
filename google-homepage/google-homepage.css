@@ -1,0 +1,21 @@
+.nav {
+    display: block;
+    float: right;
+}
+
+.nav-item {
+    display: inline;
+    text-decoration-color: aqua;
+}
+
+.center {
+    margin: auto;
+    position: relative;
+    width: 50%;
+    padding: 200px;
+}
+
+.google-logo-img {
+    display: block;
+    margin: auto;
+}
