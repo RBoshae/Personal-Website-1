@@ -3,26 +3,46 @@
   <head>
     <title>Project Euler Solutions</title>
     <link rel="stylesheet" type="text/css" href="project-euler.css">
+    
   </head>
   <body>
     <div id="content">
       <div id="header">
         <h1>Solutions to ProjectEuler.net</h1>
             <p>
-              <a href="https://projecteuler.net/"> ProjectEuler.net </a> is an excellent site that hosts a number of math problems designed to be solved by a computer aka let's program! Here is a list of solutions I've compiled. For some solutions, I have discuss my approach. I may also offer suggestions for a clever approach to the problem. You're welcome to attempt the problem yourself or verify your answer by browsing the page.
+              <a href="https://projecteuler.net/"> ProjectEuler.net </a> is an excellent site that hosts a number of math problems designed to be solved by a computer -- aka let's program! Here is a list of solutions I've compiled. For some solutions, I  discuss my approach. I may also offer suggestions for a clever approach to the problem. You're welcome to attempt the problem yourself or verify your answer by browsing the page.
             </p>
       </div>
       <div class="solutions">
-        <div id="question-1">
-            <h2>Problem 1</h2>
-            <h3>Multiples of 3 and 5</h3>
-            <p>If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6, and 9. The sum of these multiples is 23.</p>
-            <p>Find the sum of all multiples of 3 and 5 below 1000.</p>
-            
+          <div id="problem-1">
+            <div id="question-1">
+                <h2>Problem 1</h2>
+                <h3>Multiples of 3 and 5</h3>
+                <p>If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6, and 9. The sum of these multiples is 23.</p>
+                <p>Find the sum of all multiples of 3 and 5 below 1000.</p>
+            </div>
+            <div id="solution-1-space">
+                <div class="solutions-button">View Solution</div>
+                    <div class='solution'>
+                        <h3>Solution</h3>
+                        <p>233,168</p>
+                        <h4>Explanation</h4>
+                        <p> The easiest way to solve this problem is by <b>Brute Force</b> . This can be achieved by running a loop beginning at 1 and incrementing by 1 until 1000. In each iteration we check if the current number is divisible by 3 or 5. If it is, we add it to our sum otherwise continue to increment. Once the loop terminates we have our sum. We can generalize this idea simply checking for divisions by other factors and looping until we've reached out desired upper limit. The advantage to the Brute Force method is that it is very easy to translate into code.</p>
+                        <p>A second <b>clever appraoch</b> is to employ the <b>Gauss Sum Formula.</b>The formula allows us to sum a series of numbers with the pattern 1 + 2 + 3 + ... + n, where n is the upper limit. The Gauss Formula is as follows,
+                            <center><div class="math-expression"><img src="images/gauss-sum.gif" alt=" S=n(n+1)/2"></div></center>
+                            Thus, we can easliy compute the sum. Now you may be wondering how can we use this formuala to our advantage? Well let's use some algebra to help us. Using Problem 1 as our example, let's consider all numbers factorable by 3. We can quickly determine we will have to sum 3 + 6 + 9 + 12 + ... until we reach 999. If we divide this series by 3 we can rewrite it as 3*(1 + 2 + 3 + ... + 333). Hey, there's the pattern that fits the Gauss Sum Formula! We can do the same for factors of 5. Now, the only thing we have to be careful about is double counting. For instance 15, 30, 45, and so forth are divisible by 3 and 5. In out calculations we'll have to make sure each value is only counted once. We should now be able to solve this problem much faster than the Brute Force method. The downside is that this method is more challenging to generalize in code.
+                        
+                        </p>
+                    </div>
+            </div>
         </div>
-        <div id="solution-1">
         </div>
-      </div>
     </div>
+  
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
   </body>
 </html>
