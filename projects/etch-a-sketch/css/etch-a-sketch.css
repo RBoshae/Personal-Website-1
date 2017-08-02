@@ -1,0 +1,19 @@
+.center{
+    width: 75%;
+    margin: 0 auto;
+}
+
+#display {
+    
+    border: 1px solid;
+    height: 512px;
+    width: 512px;
+    margin: 0 auto;
+}
+
+.pixel {
+    display: inline-block;
+    border: 1px solid;
+    height: 1em;
+    width: 1em;
+}
