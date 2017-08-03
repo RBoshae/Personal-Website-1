@@ -6,9 +6,17 @@
         <script src="js/etch-a-sketch.js"></script>
     </head>
     <body>
-        <div class="center">
-            <div id="display">
+        <div id="outer-display">
+            <div class="center">
+                <div id="top">Draw!</div>
+                <div id="display">
+                </div>
+            <form>
+            Grid Size: <input type ="number" name="grid-size" VALUE="16">
+            </form>
+            <button id="set-grid-size-btn">Set Size</button>
             </div>
         </div>
+        
     </body>
-</html>
+    </html>
