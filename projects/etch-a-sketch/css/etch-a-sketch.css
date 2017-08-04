@@ -4,8 +4,9 @@ body {
 
 #btns-container {
     padding-top: 0px;
-    height: 95px;
+    height: 110px;
     text-align: justify;
+    overflow: hidden;
 }
 .center{
     width: 87%;
