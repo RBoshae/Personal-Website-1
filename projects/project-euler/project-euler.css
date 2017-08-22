@@ -1,0 +1,54 @@
+body {
+    font-family: Helvitica;
+    padding: 2em;
+    background-color: whitesmoke;
+}
+
+h1{
+    font-size: 2.5em;
+}
+
+.math-expression{
+    display: inline-block;
+    background-color: whitesmoke;
+    margin: .5em;
+    padding: .5em;
+}
+
+.solution{
+    background-color: gray;
+    border: solid;
+    display: block;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 1em 0 2em 0;
+    padding: .25em 1em;
+}
+
+.solutions {
+    display: flex; /*Im not sure what flex does*/
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.solutions-button {
+    display: inline-block;
+    background-color: #E55126;
+    border: solid;
+    border-color: #E55126;
+    margin: .8em;
+    padding: .2em;
+}
+.solutions-button:hover {
+    background-color: #E5F000;
+    cursor: pointer;
+    
+}
+
+#problem-1{
+    border-style: solid;
+    border-color: #E55126;
+    
+    padding: 0 2em;
+    
+}

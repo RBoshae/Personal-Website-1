@@ -1,0 +1,248 @@
+body {
+    overflow: hidden;
+}
+
+#btns-container {
+    padding-top: 0px;
+    height: 110px;
+    text-align: justify;
+    overflow: hidden;
+}
+.center{
+    width: 87%;
+    margin: 0 auto;
+}
+
+#color-radio-btns-container {
+    
+   vertical-align: center;
+    height: 95px;
+    overflow: hidden;
+}
+
+input[type='radio'] {
+    -webkit-appearance:none;
+    border: 1px solid;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    outline: none;
+}
+
+input[type='radio']:checked {
+    -webkit-appearance:none;
+    border: 3px solid;
+    border-radius: 50%;
+    box-shadow: 0px 0px 51px 0px rgba(0, 0, 0, 0.25) inset;
+    width: 15px;
+    height: 15px;
+}
+
+#red-radio-btn  {
+    background: red;
+}
+
+#blue-radio-btn  {
+    background: blue;
+}
+
+#green-radio-btn  {
+    background: green;
+}
+
+#random-radio-btn  {
+    background: grey;
+}
+
+#display {
+    
+    border: 1px solid;
+    line-height: 0%;
+    height: 512px;
+    width: 512px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#grid-size-btn-container {
+    background-color: white;
+    border: 1.5px solid;
+    border-radius: 75%;
+    display: inline-block;
+    text-align: justify;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    top: 50%;
+    vertical-align: center;
+}
+
+
+#grid-size-btn-container:active{
+    background-color: ghostwhite;
+    border: 2px solid;
+}
+
+#grid-size-btn-container:hover{
+    box-shadow: 1px 1px;
+}
+
+#grid-size-input-box {
+
+    font-size: 32px;
+    margin: 0 auto;
+    width: 50%;
+    
+}
+
+#clear-btn-container {
+    background-color: white;
+    border: 1.5px solid;
+    border-radius: 75%;
+    display: inline-block;
+    margin-left: 100px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    top: 50%;
+    vertical-align: center;
+    margin-right: 0;
+}
+
+#clear-btn-container:active{
+    background-color: ghostwhite;
+    border: 2px solid;
+}
+
+#grid-size-btn-container:hover{
+    box-shadow: 1px 1px;
+}
+
+.input-forms {
+}
+
+.interface-btns {
+    display: inline-block;
+    float: left;
+    margin: 0 auto;
+    padding: 0;
+    vertical-align: top;
+    text-align: justify;
+}
+#outer-display {
+    background-color: rebeccapurple;
+    border: solid;
+    border-radius: 10%;
+    box-shadow: 4px 4px 4px 4px grey;
+    margin: 0 auto;
+    /*padding: 10px 10px 10px 10px;*/
+    width: 600px;
+    height: 650px;
+}
+
+.pixel {
+    font-family: fantasy;
+    display: inline-block;
+    /*border: 1px solid;*/
+    margin: 0 auto;
+    background-color: whitesmoke;
+}
+
+#rounded-switch-container{
+    display: inline-block;
+    margin: 0 auto;
+    vertical-align: middle;
+    width: 60px;
+    height: 95px;
+    text-align: center;
+}
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    
+}
+
+/* Hide the default HTML checkbox */
+.switch input {
+    display: none;
+}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition:.4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    bottom: 4px;
+    background-color:white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: orangered;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translate(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+.table-pixel {
+    border-spacing: 0px;
+    margin: 0 auto;
+    padding: 0px;
+    vertical-align: baseline;
+    background-color: gray;
+}
+
+#top {
+    margin: 0;
+    align-content: center;
+    text-align: center;
+    font-size: 32px;
+    font-family: fantasy;
+}
+
+/*.pixel:hover{
+    background-color: blue;
+}*/
