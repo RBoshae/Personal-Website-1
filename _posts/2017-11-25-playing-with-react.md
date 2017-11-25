@@ -4,9 +4,9 @@ title: "Building a Website With Reactjs"
 date: 2017-11-25
 ---
 
-School is back in session and keeping up with my blog has been tough. This quarter in particular is a busy one. I'm learning Graphics, Operating Systems, Software Engineering, and Technical Communication. On the plus side, I've gained a new set of skills to sharpen.
+School is back in session and keeping up with my blog has been tough. This quarter in particular is a busy one. I'm learning Graphics, Operating Systems, Software Engineering, and Technical Communication. It really is a big time requirement but so much fun. On the plus side, I've gained a new set of skills to sharpen.
 
-A very neat project I've been working on for the past 5 weeks is [Huddle](http://huddlereflex.me/)(-- be nice! Huddle is still in alpha ). Inspired by Trello, Huddle is a collaborative tool that organizes projects into boards. Each board is made up of columns (or lists) which hold a set of cards that correspond to user stories or tasks.
+A very neat project I've been working on for the past 5 weeks is [Huddle](http://huddlereflex.me/) (-- be nice! Huddle is still in alpha ). Inspired by Trello, Huddle is a collaborative tool that organizes projects into boards. Each board is made up of columns (or lists) which hold a set of cards that correspond to user stories or tasks.
 
 [![N|Huddle Board View](RBoshae.github.io/images/Huddle-Board-View.png?raw=true)](http://huddlereflex.me/)
 
