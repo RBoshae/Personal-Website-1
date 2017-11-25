@@ -8,8 +8,7 @@ School is back in session and keeping up with my blog has been tough. This quart
 
 A very neat project I've been working on for the past 5 weeks is [Huddle](http://huddlereflex.me/) (-- be nice! Huddle is in alpha ). Inspired by Trello, Huddle is a collaborative tool that organizes projects into boards. Each board is made up of columns (or lists) which hold a set of cards that correspond to user stories or tasks.
 
-[![N|Huddle Board View](RBoshae.github.io/images/Huddle-Board-View.png?raw=true)](http://huddlereflex.me/)
-[![N|Breakout](https://github.com/Wanderrer/Breakout/blob/master/Top%20View.JPG?raw=true)](https://raw.githubusercontent.com/Wanderrer/Breakout/)
+<img src="RBoshae.github.io/images/Huddle-Board-View.png" alt="Huddle Board View" height="216" width="384">
 
 I designed the webapp with four other CS students at UC Riverside.
 This is one of the first major projects I've worked on with my peers at UCR. It was a great way to practice team skills and dividing a large project into manageable parts. I am super grateful for taking a Software Engineering course and recommend it to everyone.
