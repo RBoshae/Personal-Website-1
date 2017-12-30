@@ -1,5 +1,7 @@
 body { margin: 60px auto; width: 70%; }
 
+body.landing-body {margin: 0; width: 100%;}
+
 a { text-decoration: none; color: #999; }
 a:hover { text-decoration: underline; }
 
@@ -40,24 +42,37 @@ ul.posts li { list-style: none; }
 
 /* blurb */
 .blurb {
-
+  background: white;
+  z-index: 0;
+  padding-right: 20px;
+  padding-left: 20px;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 20;
+  opacity: 0.97;
 }
 
 .home-header-bg {
-    background: white url("/images/homepage/home-bg.jpg") no-repeat center center;
+    background: grey url("/images/homepage/home-bg-3-v2.jpeg") no-repeat center center;
     background-size: cover;
-    padding: 18px 0 10px;
-    z-index: 1;
+    padding: 90px 0 50px;
+    z-index: 0;
     position: relative;
     margin-bottom: 0px;
+    width: 100%;
 }
 
 /* default layout */
 .background{
     background: white;
-    z-index: 20;
+    z-index: 200;
     position: fixed;
     top: 0;
     left: 0;
     z-index: -100;
+}
+
+.projects {
+  padding-top: 20px;
 }
