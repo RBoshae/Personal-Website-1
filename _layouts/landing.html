@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -9,8 +10,14 @@
       <link rel="shortcut icon" href="../images/title-icon-64x64.ico"/>
       <title>{{ page.title }}</title>
 
+
       <!-- link to bootstrap stylesheet -->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+
 
       <!-- link to fontawesome stylesheet -->
       <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
@@ -18,20 +25,20 @@
       <!-- link to main stylesheet -->
       <link rel="stylesheet" type="text/css" href="/css/main.css">
 
-
       {% include analytics.html %}
   </head>
 
 
   <body class="landing-body">
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">Rick Boshae</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+
+    <nav class="navbar fixed-top navbar-toggleable-md navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="/">Rick Boshae</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarText">
-        <ul class="navbar-nav mr-auto">
+        <ul class="navbar-nav mr-auto mt-2 mt-md-0">
           <li class="nav-item active">
             <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
           </li>
@@ -54,6 +61,7 @@
       </div>
     </nav>
 
+
     <div class="background" id="ng-container">
     </div>
 
@@ -62,15 +70,16 @@
     </div>
 
     <div class="container">
-      <footer>
-          <ul>
-          <li><a href="mailto:rbosh001@ucr.edu">email</a></li>
-          <li><a href="https://github.com/rboshae">github.com/rboshae</a></li>
-          </ul>
-      </footer>
-    </div class="container">
+    <footer>
+        <ul>
+        <li><a href="mailto:rbosh001@ucr.edu">email</a></li>
+        <li><a href="https://github.com/rboshae">github.com/rboshae</a></li>
+        </ul>
+    </footer>
+
 
 
     <script type="text/javascript" src="../js/main-dev.js"></script>
+
   </body>
 </html>
