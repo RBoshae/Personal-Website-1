@@ -57,6 +57,7 @@ ul.posts li { list-style: none; }
   left: 0;
   z-index: 20;
   opacity: 0.97;
+  height: 450px;
 }
 
 .home-header-bg {
@@ -67,6 +68,7 @@ ul.posts li { list-style: none; }
     position: relative;
     margin-bottom: 0px;
     width: 100%;
+    height: 600px
 }
 
 /* default layout */
@@ -81,4 +83,14 @@ ul.posts li { list-style: none; }
 
 .projects {
   padding-top: 20px;
+}
+
+
+/* Portfolio Items */
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.pagination {
+  margin-bottom: 30px;
 }

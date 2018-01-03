@@ -7,17 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
 
-      <link rel="shortcut icon" href="../images/title-icon-64x64.ico"/>
-      <title>{{ page.title }}</title>
+    <link rel="shortcut icon" href="../images/title-icon-64x64.ico"/>
+    <title>{{ page.title }}</title>
 
 
       <!-- link to bootstrap stylesheet -->
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+      <link rel="stylesheet" type="text/css" href="/vendor/bootstrap-4.0.0-beta.3-dist/css/bootstrap.css">
 
-      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="/vendor/bootstrap-4.0.0-beta.3-dist/js/bootstrap.bundle.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
 
+      <!-- link to jQuery -->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 
       <!-- link to fontawesome stylesheet -->
       <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
@@ -29,6 +30,7 @@
   </head>
 
 
+  <!-- navbar -->
   <body class="landing-body">
 
     <nav class="navbar sticky-top navbar-toggleable-sm navbar-expand-sm navbar-dark bg-dark">
@@ -60,25 +62,25 @@
         </span>
       </div>
     </nav>
+    <!-- /navbar -->
 
-
+    <!-- node garden stuff -->
     <div class="background" id="ng-container">
     </div>
+    <!-- /node garden stuff -->
 
     <div>
       {{ content }}
     </div>
 
     <div class="container">
-    <footer>
-        <ul>
-        <li><a href="mailto:rbosh001@ucr.edu">email</a></li>
-        <li><a href="https://github.com/rboshae">github.com/rboshae</a></li>
-        </ul>
-    </footer>
-  </div>
-
-
+      <footer>
+          <ul>
+          <li><a href="mailto:rbosh001@ucr.edu">email</a></li>
+          <li><a href="https://github.com/rboshae">github.com/rboshae</a></li>
+          </ul>
+      </footer>
+    </div>
 
     <script type="text/javascript" src="../js/main-dev.js"></script>
 
